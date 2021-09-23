@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <title>Agro</title>
+</head>
+<body>
+    <div id="container">
+        <header id="logo">
+            <img src="img/logo.png" alt="">
+        </header>
+            <form id="form-registro">
+                <h1 id="title">Registro</h1>
+                
+                <label for="username" id="name">Username</label>
+                <input type="text" id="username" name="username" placeholder="Username"/>
+                <br>
+                <label for="password" id="name" >Contraseña</label>
+                <input type="password" id="password" name="password" placeholder="Contraseña"/>
+                <br>
+                <label for="security" id="name">Pregunta de seguridad</label>
+                <select name="security" id="security">
+                    <option value="1">¿Color favorito?</option>
+                    <option value="2">¿Lugar de nacimiento?</option>
+                    <option value="3">¿Nombre de la mascota?</option>
+                </select>
+                <br>
+                <label for="answer" id="name">Respuesta de seguridad</label>
+                <input type="text" name="answer" id="answer" placeholder="Ingrese respuesta" />
+                <br>
+                <button id="btn-registrar">Registrar</button>
+                <br>
+                <a href="login.html" id="enlace-login">Login</a>
+            </form>
+    </div>
+</body>
+</html>
